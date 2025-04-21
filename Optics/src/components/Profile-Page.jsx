@@ -58,7 +58,7 @@ const ProfilePage = ({ user }) => {
               : "0 4px 12px rgba(0, 0, 0, 0.1)", // Subtle shadow for light mode
           }}
         >
-          <h1 className="profile-h1">Overview</h1>
+          <h1 className="profile-h1">Overview APE</h1>
           <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
             <p className="overview-text">Total Projects: 10</p>
             <p className="overview-text">Completed Projects: 7</p>
