@@ -7,7 +7,8 @@ import {
   Cog6ToothIcon,
   MoonIcon,
   SunIcon,
-  Bars3Icon, // Hamburger icon
+  Bars3Icon,
+  ClipboardDocumentListIcon, // Hamburger icon
 } from "@heroicons/react/24/outline";
 import logo from "../assets/images/Optic_Logo.png"; // Import the logo
 
@@ -80,7 +81,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
               label: "Project Management",
               icon: Cog6ToothIcon,
             },
-            { to: "/accounts", label: "Accounts", icon: UserGroupIcon },
+            { to: "/estimator", label: "Estimator", icon: ClipboardDocumentListIcon },
             { to: "/proposals", label: "Proposals", icon: DocumentTextIcon },
           ].map(({ to, label, icon: Icon }) => (
             <Link

@@ -2,7 +2,7 @@ import React from "react";
 
 const Dashboard = ({ user }) => {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-8">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-7">
       {/* Dashboard Header */}
       <div className="mb-6">
         <h1 className="text-xl font-bold text-gray-900 dark:text-white ml-10">Dashboard</h1>
